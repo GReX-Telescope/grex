@@ -1,0 +1,9 @@
+[submodule "pipeline"]
+	path = pipeline
+	url = https://github.com/GReX-Telescope/Pipeline
+[submodule "t0"]
+	path = t0
+	url = https://github.com/GReX-Telescope/GReX-T0
+[submodule "t2"]
+	path = t2
+	url = https://github.com/GReX-Telescope/GReX-T2
