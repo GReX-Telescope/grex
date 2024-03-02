@@ -7,3 +7,6 @@
 [submodule "t2"]
 	path = t2
 	url = https://github.com/GReX-Telescope/GReX-T2
+[submodule "snap_bringup"]
+	path = snap_bringup
+	url = https://github.com/GReX-Telescope/snap_bringup

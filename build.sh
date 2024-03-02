@@ -21,3 +21,14 @@ else
     poetry install
 fi
 cd ..
+
+# Build snap_bringup
+cd snap_bringup
+if ! command -v poetry &> /dev/null
+then
+    echo "poetry could not be found, is it installed?"
+    exit
+else
+    poetry install
+fi
+cd ..
