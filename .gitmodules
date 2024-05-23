@@ -10,3 +10,6 @@
 [submodule "snap_bringup"]
 	path = snap_bringup
 	url = https://github.com/GReX-Telescope/snap_bringup
+[submodule "clean_rfi"]
+	path = clean_rfi
+	url = https://github.com/GReX-Telescope/clean_rfi.git
