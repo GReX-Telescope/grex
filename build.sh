@@ -11,6 +11,17 @@ else
 fi
 cd ..
 
+# Build clean_rfi
+cd clean_rfi
+if ! command -v cargo &> /dev/null
+then
+    echo "cargo could not be found, is the rust toolchain installed?"
+    exit
+else
+    cargo build --release
+fi
+cd ..
+
 # Build T2
 cd t2
 if ! command -v poetry &> /dev/null
